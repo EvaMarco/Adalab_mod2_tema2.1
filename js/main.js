@@ -10,3 +10,8 @@ homeAddress = 'Planeta Saturno, 16';
 newTitle.innerHTML = homeAddress;
 
 // newTitle = document.querySelector('.title-2'); --> no podemos cambiar el selector porque es una contante y no una variable let.
+
+// Ejercicio 3
+
+const parraf = document.querySelector('.text');
+parraf.innerHTML = parraf.innerHTML + ' ' + 'Mundo¡';
