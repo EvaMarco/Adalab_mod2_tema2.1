@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mi primer código de JavaScript</title>
+</head>
+<body>
+    <h1></h1>
+    <p class="text">Hola</p>
+    <h2 class="subtitle">La adalaber seleccionada es: </h2>
+    <ul class="adalaberlist">
+        <li class="adalaber1">Eva</li>
+        <li class="adalaber2">Jose</li>
+    </ul>
+    <p class="pass">Mi contraseña es: <span class="secret"> ada2019 </span></p>
+
+
+
+
+
+
+
+
+    <script type="text/javascript">
+
+    'use strict';
+    document.querySelector('h1').innerHTML = 'Esta página no es compatible con la versión actual de tu navegador. Por favor actualízalo a la versión más reciente.';
+    let myAddress = "planeta saturno";
+    myAddress = "espinete";
+
+    const parraftext= document.querySelector('.text');
+    parraftext.innerHTML= parraftext.innerHTML + ' Mundo¡¡';
+
+    const newSubtitle = document.querySelector('.subtitle');
+    const selectAdalaber = document.querySelector('.adalaber1');
+    newSubtitle.innerHTML = newSubtitle.innerHTML + selectAdalaber.innerHTML;
+
+    const newPass = document.querySelector('.secret');
+    newPass.innerHTML = '****';
+        /* Ejercicio 6 */
+
+
+    /* Ejercicio 7 */
+
+
+      </script>
+</body>
+</html>

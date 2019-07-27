@@ -1,10 +1,17 @@
 'use strict';
-const newTitle = document.querySelector('.title');
-newTitle.innerHTML = 'Esta página no es compatible con la versión actual de tu navegador. Por favor actualize su navedador';
 
-const parraf = document.querySelector('.text');
-parraf.innerHTML = parraf.innerHTML + ' ' + 'Mundo¡';
+const title = document.querySelector('.title');
+
+
+// const homeAddress = 'Calle Virtudes, 22';
+// homeAddress = 'Planeta Saturno, 16';
+// newTitle.innerHTML = homeAddress;
+// no podemos cambiar el titulo porque es una contante y no una variable let.
+
 let homeAddress = 'Calle Virtudes, 22';
 homeAddress = 'Planeta Saturno, 16';
 
-newTitle.innerHTML = homeAddress;
+// Al cambiarlo a let ya me deja modificarlo.
+
+title.innerHTML = homeAddress;
+
