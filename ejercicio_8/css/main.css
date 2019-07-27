@@ -11,19 +11,29 @@ body{
     padding:10px;
     border-bottom: 1px solid #454545;
 }
-
 .ex-link{
     padding:10px;
     margin-top: 10px;
     text-decoration: none;
     display: inline-block;
-
 }
 .header{
     background-color: #cccccc;
 }
-
 .resultado{
     margin: 20px auto;
     color:tomato;
+}
+.btn{
+    margin:10px;
+    padding:10px;
+    border: none;
+    background-color: lightcoral;
+    color:white;
+    text-decoration: none;
+    cursor: pointer;
+}
+.disabled{
+    opacity: 0.2;
+    background-color: grey;
 }
